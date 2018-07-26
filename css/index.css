@@ -1,0 +1,136 @@
+body {
+    background-color: #FDFDFD;
+}
+
+@font-face {
+    font-family: News Cycle;
+    src: url("../fonts/NewsCycle-Regular.ttf");
+}
+
+@font-face {
+    font-family: News Cycle;
+    font-weight: bold;
+    src: url("../fonts/NewsCycle-Bold.ttf");
+}
+
+p {
+    color: black;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+#header {
+    height: 5em;
+}
+
+#navbar{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.navlink {
+    display: inline;
+}
+
+.navlink a{
+    display:inline-block;
+    margin: 3em;
+    margin-top: 2em;
+    text-decoration: none;
+    color: gray;
+}
+
+.navlink a:hover:not(.active) {
+    text-decoration: underline;
+    color: black;
+}
+
+#propic {
+    left: 30%;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: .2em solid #BEDDD3;
+    padding: .3em;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family: 'News Cycle';
+    color: #BEDDD3;
+    letter-spacing: .17em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+
+}
+
+#aboutpic {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -3.5em;
+    z-index: 1;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #FDFDFD;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#blurb {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); 
+    display: table-cell;
+    vertical-align: middle;
+    border-left: .2em solid #BEDDD3;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 100%;
+    text-align: left;
+
+}
+
+#container {
+    top:10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height:20em;
+    width: 30%;
+    display: table;
+    padding: 3em;
+    position: relative;
+    max-width: 40em;
+    max-height: 40em;
+}
+
+#credits {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 1em;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#socials {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 1em;
+    padding-bottom: .9em;
+}
+
+.icons {
+    width: 1.5em;
+}
