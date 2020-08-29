@@ -7,19 +7,15 @@ body {
     src: url("../fonts/NewsCycle-Regular.ttf");
 }
 
-@font-face {
-    font-family: News Cycle;
-    font-weight: bold;
-    src: url("../fonts/NewsCycle-Bold.ttf");
-}
-
-p {
-    color: black;
-    font-family: 'News Cycle', sans-serif;
-    font-size: 1em;
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 1em;
+.hide {
+    font-family: 'NewsCycle-Bold', sans-serif;
+    color: #D1CCDC;
+    text-align: left;
+    padding: 0;
+    padding-left: .5em;
+    margin: 0;
+    letter-spacing: .15em;
+    font-size: .8em;
 }
 
 .header {
@@ -27,13 +23,38 @@ p {
     font-size: 3em;
     letter-spacing: .15em;
     color: #FED766;
-    margin-left: 8em;
-    margin-top: 3.5em;
+    margin-left: 25%;
+    margin-top: 5em;
 }
 
 .outline {
   color: #27063F;
   text-shadow: -.5px -.5px 0 #D1CCDC, .5px -.5px 0 #D1CCDC, -.5px .5px 0 #D1CCDC, .5px .5px 0 #D1CCDC;
+}
+
+.blurb {
+    font-family: 'NewsCycle-Bold', sans-serif;
+    color: #D1CCDC;
+    text-align: left;
+    letter-spacing: .15em;
+    font-size: 1em;
+    margin-left: 25%;
+    width: 40%;
+}
+
+.education, .experience {
+    font-family: 'NewsCycle-Bold', sans-serif;
+    color: #D1CCDC;
+    text-align: left;
+    letter-spacing: .15em;
+    font-size: 1em;
+    margin-left: 25%;
+    width: 40%;
+    margin-top: 20em;
+}
+
+.title {
+    color: #FED766;
 }
 
 .vl {
@@ -76,17 +97,6 @@ p {
 
 a {
     text-decoration: none;
-}
-
-.hide {
-    font-family: 'NewsCycle-Bold', sans-serif;
-    color: #D1CCDC;
-    text-align: left;
-    padding: 0;
-    padding-left: .5em;
-    margin: 0;
-    letter-spacing: .15em;
-    font-size: .8em;
 }
 
 table, tr, td {
